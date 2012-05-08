@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4C30FAB154A35BA00B4B52B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C30FAA154A35BA00B4B52B /* UIKit.framework */; };
+		B4C30FAD154A35BA00B4B52B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C30FAC154A35BA00B4B52B /* Foundation.framework */; };
+		B4C30FAF154A35BA00B4B52B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C30FAE154A35BA00B4B52B /* CoreGraphics.framework */; };
+		B4C30FB5154A35BA00B4B52B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4C30FB3154A35BA00B4B52B /* InfoPlist.strings */; };
+		B4C30FB7154A35BA00B4B52B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C30FB6154A35BA00B4B52B /* main.m */; };
+		B4C30FBB154A35BA00B4B52B /* ESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C30FBA154A35BA00B4B52B /* ESAppDelegate.m */; };
+		B4C30FBE154A35BA00B4B52B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C30FBC154A35BA00B4B52B /* MainStoryboard.storyboard */; };
+		B4C30FC1154A35BA00B4B52B /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C30FC0154A35BA00B4B52B /* ESViewController.m */; };
+		B4FD7491154A38DF00F7017F /* ESRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FD7490154A38DF00F7017F /* ESRestClient.m */; };
+		B4FD7494154A401600F7017F /* ESCalcClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FD7493154A401600F7017F /* ESCalcClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B492A230155780EF00C97E71 /* ESProgressOwner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESProgressOwner.h; sourceTree = "<group>"; };
+		B4C30FA6154A35BA00B4B52B /* RESTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C30FAA154A35BA00B4B52B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4C30FAC154A35BA00B4B52B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4C30FAE154A35BA00B4B52B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4C30FB2154A35BA00B4B52B /* RESTClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTClient-Info.plist"; sourceTree = "<group>"; };
+		B4C30FB4154A35BA00B4B52B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4C30FB6154A35BA00B4B52B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4C30FB8154A35BA00B4B52B /* RESTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RESTClient-Prefix.pch"; sourceTree = "<group>"; };
+		B4C30FB9154A35BA00B4B52B /* ESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ESAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B4C30FBA154A35BA00B4B52B /* ESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ESAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B4C30FBD154A35BA00B4B52B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B4C30FBF154A35BA00B4B52B /* ESViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESViewController.h; sourceTree = "<group>"; };
+		B4C30FC0154A35BA00B4B52B /* ESViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESViewController.m; sourceTree = "<group>"; };
+		B4FD748E154A387F00F7017F /* ESRestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ESRestDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B4FD748F154A38DF00F7017F /* ESRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ESRestClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B4FD7490154A38DF00F7017F /* ESRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ESRestClient.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B4FD7492154A401600F7017F /* ESCalcClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ESCalcClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B4FD7493154A401600F7017F /* ESCalcClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ESCalcClient.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4C30FA3154A35BA00B4B52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C30FAB154A35BA00B4B52B /* UIKit.framework in Frameworks */,
+				B4C30FAD154A35BA00B4B52B /* Foundation.framework in Frameworks */,
+				B4C30FAF154A35BA00B4B52B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4C30F9B154A35BA00B4B52B = {
+			isa = PBXGroup;
+			children = (
+				B4C30FB0154A35BA00B4B52B /* RESTClient */,
+				B4C30FA9154A35BA00B4B52B /* Frameworks */,
+				B4C30FA7154A35BA00B4B52B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4C30FA7154A35BA00B4B52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4C30FA6154A35BA00B4B52B /* RESTClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C30FA9154A35BA00B4B52B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C30FAA154A35BA00B4B52B /* UIKit.framework */,
+				B4C30FAC154A35BA00B4B52B /* Foundation.framework */,
+				B4C30FAE154A35BA00B4B52B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C30FB0154A35BA00B4B52B /* RESTClient */ = {
+			isa = PBXGroup;
+			children = (
+				B4C30FB9154A35BA00B4B52B /* ESAppDelegate.h */,
+				B4C30FBA154A35BA00B4B52B /* ESAppDelegate.m */,
+				B4C30FBC154A35BA00B4B52B /* MainStoryboard.storyboard */,
+				B4C30FBF154A35BA00B4B52B /* ESViewController.h */,
+				B4C30FC0154A35BA00B4B52B /* ESViewController.m */,
+				B4C30FB1154A35BA00B4B52B /* Supporting Files */,
+				B4FD748E154A387F00F7017F /* ESRestDelegate.h */,
+				B492A230155780EF00C97E71 /* ESProgressOwner.h */,
+				B4FD748F154A38DF00F7017F /* ESRestClient.h */,
+				B4FD7490154A38DF00F7017F /* ESRestClient.m */,
+				B4FD7492154A401600F7017F /* ESCalcClient.h */,
+				B4FD7493154A401600F7017F /* ESCalcClient.m */,
+			);
+			path = RESTClient;
+			sourceTree = "<group>";
+		};
+		B4C30FB1154A35BA00B4B52B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4C30FB2154A35BA00B4B52B /* RESTClient-Info.plist */,
+				B4C30FB3154A35BA00B4B52B /* InfoPlist.strings */,
+				B4C30FB6154A35BA00B4B52B /* main.m */,
+				B4C30FB8154A35BA00B4B52B /* RESTClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4C30FA5154A35BA00B4B52B /* RESTClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C30FC4154A35BA00B4B52B /* Build configuration list for PBXNativeTarget "RESTClient" */;
+			buildPhases = (
+				B4C30FA2154A35BA00B4B52B /* Sources */,
+				B4C30FA3154A35BA00B4B52B /* Frameworks */,
+				B4C30FA4154A35BA00B4B52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESTClient;
+			productName = RESTClient;
+			productReference = B4C30FA6154A35BA00B4B52B /* RESTClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C30F9D154A35BA00B4B52B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ES;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Euclid Software, LLC";
+			};
+			buildConfigurationList = B4C30FA0154A35BA00B4B52B /* Build configuration list for PBXProject "RESTClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4C30F9B154A35BA00B4B52B;
+			productRefGroup = B4C30FA7154A35BA00B4B52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4C30FA5154A35BA00B4B52B /* RESTClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4C30FA4154A35BA00B4B52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C30FB5154A35BA00B4B52B /* InfoPlist.strings in Resources */,
+				B4C30FBE154A35BA00B4B52B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4C30FA2154A35BA00B4B52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C30FB7154A35BA00B4B52B /* main.m in Sources */,
+				B4C30FBB154A35BA00B4B52B /* ESAppDelegate.m in Sources */,
+				B4C30FC1154A35BA00B4B52B /* ESViewController.m in Sources */,
+				B4FD7491154A38DF00F7017F /* ESRestClient.m in Sources */,
+				B4FD7494154A401600F7017F /* ESCalcClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4C30FB3154A35BA00B4B52B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C30FB4154A35BA00B4B52B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4C30FBC154A35BA00B4B52B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C30FBD154A35BA00B4B52B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4C30FC2154A35BA00B4B52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4C30FC3154A35BA00B4B52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C30FC5154A35BA00B4B52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTClient/RESTClient-Prefix.pch";
+				INFOPLIST_FILE = "RESTClient/RESTClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4C30FC6154A35BA00B4B52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RESTClient/RESTClient-Prefix.pch";
+				INFOPLIST_FILE = "RESTClient/RESTClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4C30FA0154A35BA00B4B52B /* Build configuration list for PBXProject "RESTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C30FC2154A35BA00B4B52B /* Debug */,
+				B4C30FC3154A35BA00B4B52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C30FC4154A35BA00B4B52B /* Build configuration list for PBXNativeTarget "RESTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C30FC5154A35BA00B4B52B /* Debug */,
+				B4C30FC6154A35BA00B4B52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C30F9D154A35BA00B4B52B /* Project object */;
+}
